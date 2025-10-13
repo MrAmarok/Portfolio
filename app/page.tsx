@@ -1,9 +1,8 @@
-import Image from "next/image";
+import { HeaderPage } from "./pages/HeaderPage";
 
 export default function Home() {
   return (
-    <div className="text-4xl">
-      <text> HELLO</text>
-    </div>
+    <HeaderPage />
+    
   );
 }

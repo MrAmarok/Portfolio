@@ -5,10 +5,10 @@ import { media } from "@/utils";
 
 export function NavBar() {
   return (
-    <div className="grid grid-cols-3 items-center flex-row h-[80px] ">
+    <div className="grid grid-cols-3 pr-8 pl-8 items-center flex-row h-[80px]">
       <div className="flex items-center space-x-7">
         <Image
-          src={"/winking_slimy_blue.png"}
+          src={"/winking-slimy-blue.png"}
           width={80}
           height={80}
           alt={"logo slimy"}
@@ -31,7 +31,7 @@ export function NavBar() {
           </a>
         </li>
       </ul>
-      <div className="flex justify-center space-x-6 font-bold text-2xl">
+      <div className="flex justify-end space-x-6 font-bold text-2xl">
         {media.map((item) => (
           <MediaButton
             key={item.name}
