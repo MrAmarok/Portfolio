@@ -35,7 +35,7 @@ export function PinnedRepository({ isMobile }: PinnedRepositoryProps) {
             icon={faGithub}
             color='#28214D'
             text='View on Github'
-            onClick={() => window.open('https://github.com/Dvaking?tab=repositories')}
+            onClick={() => window.open('https://github.com/MrAmarok?tab=repositories')}
           />
         </div>
       </div>
