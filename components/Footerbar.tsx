@@ -15,7 +15,7 @@ export function FooterBar() {
             style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: 10 }}>
             <p>Contacts: </p>
             <div style={{ display: 'flex', flexDirection: 'row', gap:10, alignItems: 'flex-start' }}>
-              <a href='https://github.com/Dvaking' target='_blank' rel='noopener noreferrer'>
+              <a href='https://github.com/MrAmarok' target='_blank' rel='noopener noreferrer'>
                 GitHub
               </a>
               <a
