@@ -7,6 +7,6 @@ export const SocialLink = [
     link: 'https://www.linkedin.com/in/marc-mendia/',
     backgroundColor: '#0077B5',
   },
-  { icon: faGithub, link: 'https://github.com/Dvaking', backgroundColor: '#333' },
+  { icon: faGithub, link: 'https://github.com/MrAmarok', backgroundColor: '#333' },
   { icon: faFile, link: 'cv.jpg', backgroundColor: 'red' },
 ];
